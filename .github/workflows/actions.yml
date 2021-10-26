@@ -1,4 +1,4 @@
-name: Actions Workfloe
+name: Actions Workflow
 
 on: [push]
 
