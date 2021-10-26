@@ -16,8 +16,8 @@ jobs:
           print
           (platform.processor())
         shell: python
-        
-run-windows-command:
+
+run-windows-commands:
   runs-on: windows-latest
   steps:
     - name: Directory PowerShell
