@@ -6,7 +6,7 @@ jobs:
   run-github-actions:
     runs-on: ububtu-latest
     steps:
-      - name: simple js Actions
+      - name: simple JS Actions
         id: greet
         uses: actions/hello-world-javascript-action@v1
         with: 
