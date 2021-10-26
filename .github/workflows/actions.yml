@@ -6,10 +6,10 @@ jobs:
   run-github-actions:
     runs-on: ububtu-latest
     steps:
-      - name: simple JS Actions
+      - name: Simple JS Actions
         id: greet
         uses: actions/hello-world-javascript-action@v1
         with: 
           who-to-greet: shiva
       - name: Log Greeting Time
-        run: echo "${{steps.greet.outputs.time }}"
+        run: echo "${{steps.greet.outputs.time}}"
