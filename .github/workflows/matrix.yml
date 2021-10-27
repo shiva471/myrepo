@@ -9,7 +9,7 @@ jobs:
         node-version: [6, 8, 10]
     runs-on: {{ matrix.os }}
     steps:
-      - name: Log node node-version
+      - name: Log node version
         run: node -v
       - uses: actions/setup-node@v2
         with:
